@@ -1,0 +1,60 @@
+{
+  "name": "ITCCWebsite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.2",
+    "axios": "^0.18.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "font-awesome": "^4.7.0",
+    "lodash.omit": "^4.5.0",
+    "papaparse": "^4.5.0",
+    "react": "^16.4.1",
+    "react-alice-carousel": "^1.10.4",
+    "react-bootstrap": "^0.32.3",
+    "react-dom": "^16.4.1",
+    "react-player": "^1.6.4",
+    "react-popper": "^1.0.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "^1.1.4",
+    "react-scroll-up-button": "^1.6.0",
+    "react-validation": "^3.0.7",
+    "reactstrap": "^6.4.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "sinon": "^6.1.4",
+    "validator": "^10.4.0",
+    "xlsx": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.4.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.4.1",
+    "react-doc-generator": "^1.2.5",
+    "react-test-renderer": "^16.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject",
+    "doc": "react-doc-generator ./src/components/VideoBanner -o videobanner.md"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "https://localhost/",
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(gif|ttf|eot|svg|png|jpg|mp4)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/configureEnzyme.js"
+  }
+}

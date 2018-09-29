@@ -1,0 +1,31 @@
+/* Spread out the display sections */
+.display-section {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+/* Make the headers black instead of blue */
+.content-header {
+	color: black;
+}
+
+/* Make figure labels larger, black, 
+ and centered on the image */
+.figure-label {
+	font-size: 15pt;
+	color: black;
+	text-align: center;
+}	
+
+/* Make the cursor a pointer on the display links */
+.change-page {
+	cursor: pointer;
+}
+
+/* Make text look like a link */
+.fakeLink {
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #4D148C; 
+}

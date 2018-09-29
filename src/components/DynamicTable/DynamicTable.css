@@ -1,0 +1,22 @@
+/* Make the add row button look like a link
+   and move it to the right below the table */
+.rowButton {
+	cursor: pointer;
+	position: absolute;
+	right: 50px;
+}
+
+/* Make the text label for the add row button
+   larger and better aligned with the button */
+.buttonText {
+	font-size: 12pt;
+	position: absolute;
+	right: 100px;
+	margin-top: 3px; 
+}
+
+/* Center the row numbers in their boxes */
+.rowNumber {
+	position: absolute;
+	margin-top: 3px;
+}

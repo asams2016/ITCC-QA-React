@@ -1,0 +1,20 @@
+/* Make the submit button purple with white
+   text and 100px from the footer */
+button[type="submit"] {
+	background-color: #660099;
+	color: white;
+	font-size: 20px;
+}
+
+/* Space out the questions */
+Input {
+	margin-bottom: 20px;
+}
+
+/* Space out the questions */
+Textarea {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+

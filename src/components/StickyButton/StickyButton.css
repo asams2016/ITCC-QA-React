@@ -1,0 +1,13 @@
+/* Change the color and text color of the stick
+   button and make it stick to the side */
+.sticky-link {
+	background-color: #35c433;
+	color: white;
+	position: fixed;
+	top: 75%;
+     	-webkit-transform: translateY(-75%) rotate(270deg) translateY(161%);
+     	-ms-transform: translateY(-75%) rotate(270deg) translateY(161%);
+	transform: translateY(-75%) rotate(270deg) translateY(161%); 
+	z-index: 2;
+	right: 0px;
+}

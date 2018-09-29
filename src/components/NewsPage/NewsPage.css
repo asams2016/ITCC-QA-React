@@ -1,0 +1,9 @@
+/* Make the content headers black */
+.content-header {
+	color: black;
+}
+
+/* Spread out the display sections */
+.display-section {
+        padding: 50px;
+}

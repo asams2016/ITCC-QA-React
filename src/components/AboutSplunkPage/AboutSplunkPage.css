@@ -1,0 +1,11 @@
+.noSubmit {
+	background: transparent;
+	border-color: #5a5d63;
+	color: #5a5d63;
+	border-width: 2px;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	height: 50px;
+	cursor: default;
+}

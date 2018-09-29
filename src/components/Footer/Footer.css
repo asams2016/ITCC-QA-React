@@ -1,0 +1,27 @@
+/* Spread the elements out */
+.display-sec{
+	padding-top: 50px;
+}
+
+/* Make the media links larger and white
+   a spread them out from each other */
+.mediaLinks a i {
+	font-size: 30px;
+	color: white;
+	margin-right: 5px;
+}
+
+.mediaLinks {
+	margin-bottom: 20px;
+}
+
+.footerText a {
+	color: white;
+	font-size: 12px;
+}
+
+.footerHeader {
+	color: #4D148C;
+	font-size: 16px;
+}
+

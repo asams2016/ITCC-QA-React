@@ -1,0 +1,89 @@
+/* Make the radio buttons more spread out */
+input[type="radio"] {
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+/* Increase the height of the input for it easier to click into */
+input[type="text"] {
+	height: 50px;
+	font-size: 16px;
+}
+
+/* Make the emphasis tag be orange */
+em {
+	color: #FF6600;
+}
+
+/* Make the size of the sentences easier to read */
+p {
+	font-size: 16px;
+}
+
+/* Spread out the questions */
+.question {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+/* Make the submit button purple with white
+   text and 100px from the footer */
+.submit {
+	background-color: #4D148C; /* FedEx Purple */
+	color: white;
+	font-size: 20px;
+	width: 100px;
+	margin-left: 40px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+/* Wrap the radio buttons together to make them
+   look better on smaller screens */
+.wrapper {
+	position: relative;
+	top: 12px;
+	min-width: 100px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+/* Change the color of the text box when the input is
+   invalid */
+.invalidInput {
+	outline: none;
+	border-color: #FF6200; /* FedEx Orange */
+	border-width: 2px;
+	box-shadow: 0 0 3px #FF6200;
+	color: black;
+}
+
+/* Make the text of the feedback purple when input
+   is invalid */
+.invalid-feedback {
+	color: #FF6200; /* FedEx Orange */
+}
+
+/* Set the background of the file upload button
+   to be grey */
+.fileUpload {
+	background: #cfd2d6;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+
+/* Make the input field span the outer button
+   and make the default button not show up */
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}

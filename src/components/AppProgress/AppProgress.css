@@ -1,0 +1,34 @@
+/* mdalCols is the styling for the stages in the modal
+modalImgCheck is the styling for the checkmark if a stage is completed in the modal
+modalImgCircle is the styling for the circle if a stage is not completed in the modal 
+*/
+
+.modalCols{
+	margin-left: 36px;
+	text-align: left;
+}
+
+.modalImgCheck{
+	font-size: 26px;
+	margin-top: 15px;
+	margin-left: 18px;
+	color: green;
+}
+
+.modalImgCircle{
+	font-size: 26px;
+	margin-top: 15px;
+	margin-left: 18px;
+}
+
+.progressBarColor {
+	background-color: red;
+}
+
+.searchBar {
+	margin-top: 3.22%;
+}
+
+.searchButton{
+	padding-bottom: 3%;
+}
